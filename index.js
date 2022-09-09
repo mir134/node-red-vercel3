@@ -13,7 +13,7 @@ const server = http.createServer(app);
 
 // 設定オブジェクトの生成 - 他のオプションについてはデフォルトの 'settings.js' ファイルを参照してください
 const settings = {
-    httpAdminRoot:"/red",
+    httpAdminRoot:"/",
     httpNodeRoot: "/api",
     userDir:"./.nodered",
     functionGlobalContext: { }    // グローバルコンテキストを有効化
