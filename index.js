@@ -27,7 +27,7 @@ app.use(settings.httpAdminRoot,RED.httpAdmin);
 // HTTP node UIのルートを '/api' に指定
 app.use(settings.httpNodeRoot,RED.httpNode);
 
-server.listen(process.env.PORT || 8000);
+server.listen(process.env.PORT || 3000);
 
 // ランタイム起動
 RED.start();
