@@ -6,7 +6,7 @@ const RED = require("node-red");
 const app = express();
 
 // 静的コンテンツのルートを追加
-app.use("/",express.static("../public"));
+// app.use("/",express.static("../public"));
 
 // サーバの生成
 const server = http.createServer(app);
@@ -15,7 +15,7 @@ const server = http.createServer(app);
 const settings = {
     httpAdminRoot:"/",
     httpNodeRoot: "/api",
-    userDir:"./",
+    userDir:"../public",
     functionGlobalContext: { }    // グローバルコンテキストを有効化
 };
 
