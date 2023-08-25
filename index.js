@@ -15,7 +15,7 @@ const server = http.createServer(app);
 const settings = {
     httpAdminRoot:"/",
     httpNodeRoot: "/api",
-    userDir:"./.nodered",
+    userDir:"./nodered",
     functionGlobalContext: { }    // グローバルコンテキストを有効化
 };
 
